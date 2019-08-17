@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  
+  background-color: #333333;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.calc {
+  margin: 0 auto;
+  padding: 30px;
+  width: 400px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
+
+.calc__title {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.item {
+  margin-bottom: 5px;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.item:hover{
+  background-color: #e4e4e4;
+}
+
+.item--active {
+  background-color: #e4e4e4;
+  border: 1px solid #777777;
+}
+
+.tabletop {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabletop__label {
+  margin: 0;
+}
+
+.tabletop__input {
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.price__calculation {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 10px;
+  color: #838383;
+
+}
+
+.price__total {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.price__total span {
+  font-weight: bold;
+}
+
+.price__btn {
+  width: 100%;
+}
+
+.btn {
+  border: none;
+  padding: 15px 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #e4e4e4;
+}
+
+.btn:hover {
+  background-color: #d3d3d3;
+}
