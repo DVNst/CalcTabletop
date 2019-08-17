@@ -5,7 +5,7 @@
 
   refreshPrice(document.querySelector('.item .item--active'));
 
-  //навешиваем обработчики на все столешницы (item) - при клике меняем активную
+  //навешиваем обработчики на все столешницы (item) - при клике (еще нужно при выборе с клавиатуры) меняем активную
   items.forEach((item) => {
     item.addEventListener('click', () => {
       if (!item.classList.contains('item--active')) {
